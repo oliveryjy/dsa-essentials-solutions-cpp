@@ -7,7 +7,7 @@ int largestElement(vector<int> A) {
     
      int largestEle = INT_MIN;
      
-     for (auto element : A ) {
+     for (auto element : A) {
          largestEle = max(largestEle, element);
      }
      
